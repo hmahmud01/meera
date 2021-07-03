@@ -2,15 +2,19 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+/* body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
-  }
+  } */
   
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
+
+  .bg-meera{
+    background: #ededed;
+  }
   
   /* Carousel base class */
   .carousel {
@@ -88,10 +92,15 @@ body {
   
   @media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 7rem;
+      /* margin-top: 7rem; */
     }
   }
 
   .cover-container {
     max-width: 42em;
   }
+
+
+.image-size {
+  height: 500px;
+}
